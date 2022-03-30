@@ -37,7 +37,7 @@
       <input type= "submit" name="submit" value="Pay">
     </form>
 
-        <!-- Calculations for Salary and amount governement will take -->
+        <!-- Calculations for Salary and amount government will take -->
         <?php
           if(isset($_POST["submit"])) {
             $hours = $_POST["hours"];
@@ -47,7 +47,7 @@
             $salary = number_format($salary, 2);
             $salary_taxed = $salary*$tax;
             $salary_taxed = number_format($salary_taxed, 2);
-            echo "<br><br><h3>Your salary is $" . $salary . " <br> The governement will take $" . $salary_taxed . " as income tax.</h3>";
+            echo "<br><br><h3>Your salary is $" . $salary . " <br> The government  will take $" . $salary_taxed . " as income tax.</h3>";
           }
         ?>
       </input>
