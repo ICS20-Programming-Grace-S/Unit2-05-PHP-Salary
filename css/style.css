@@ -1,0 +1,25 @@
+/* Created by: Grace S
+ * Created on: March 2022
+ * This CSS file defines the style for index.php
+ * ICS2O-Unit2-04-PHP-AreaPer-UserInput
+*/
+
+body {
+	background-color: #f4ecf7;
+}
+
+h1 {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: #e8daef;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  background-color:#ebdef0;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
